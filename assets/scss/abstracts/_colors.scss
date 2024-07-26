@@ -4,8 +4,8 @@
     --ash-grey:#A6AFAD;
     --slate-grey:#7D8B94;
     --dim-grey:#696F6A;
-    --tea-green:#D1DFA7;
-    --olivine:#B1C770;
+    --tea-green:#c7da91;
+    --olivine:#ecf1dc;
     --reseda-green:#617546;
     --reseda-green-two:#6D8872;
     --saturated-yellow:#424129;
@@ -17,12 +17,41 @@ body{
     background-color: var(--white);
 }
 
+//                     Header
+
 .header{
     background-color: var(--reseda-green-two);
     color: var(--alabaster);
 }
 
-.header__button{
+.buttons__item{
     color: var(--ash-grey);
     background-color: var(--reseda-green-two);
 }
+
+.container-item__paragraph i{
+    color: var(--tea-green);
+}
+
+//                     Main
+
+
+
+//                     Chat
+.chat__header{
+    background-color: var(--reseda-green-two);
+    color: var(--alabaster);
+}
+
+.item-left{
+    background-color: var(--tea-green);
+}
+
+.item-right{
+    background-color: var(--olivine);
+}
+
+.chat__footer{
+    background-color: var(--ash-grey);
+}
+
