@@ -1,0 +1,28 @@
+:root{
+    --white:#FEFEF8;
+    --alabaster:#F2EFE7;
+    --ash-grey:#A6AFAD;
+    --slate-grey:#7D8B94;
+    --dim-grey:#696F6A;
+    --tea-green:#D1DFA7;
+    --olivine:#B1C770;
+    --reseda-green:#617546;
+    --reseda-green-two:#6D8872;
+    --saturated-yellow:#424129;
+    --night:#121311;
+}
+
+body{
+    color: var(--night);
+    background-color: var(--white);
+}
+
+.header{
+    background-color: var(--reseda-green-two);
+    color: var(--alabaster);
+}
+
+.header__button{
+    color: var(--ash-grey);
+    background-color: var(--reseda-green-two);
+}
