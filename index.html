@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="e">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -14,129 +14,173 @@
 </head>
 
 <body>
-    <div class="main-page">
-        <!-- Header -->
-    <header class="header">
-        <h1 class="header__title">Regular Chat</h1>
-        <div class="header__buttons">
-            <button class="buttons__item"><i class="fa-solid fa-user-plus"></i></button>
-        <button class="buttons__item"><i class="fa-solid fa-magnifying-glass"></i></button>
+    <div class="parent_container">
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="navbar__item">
+                <a href=""><i class="fa-solid fa-gamepad"></i></a>
+            </div>
+            <div class="navbar__item">
+                <ul class="navbar__list">
+                    <li class="navbar__link"><a href="">Noticias</a></li>
+                    <li class="navbar__link"><a href="">Calendario</a></li>
+                    <li class="navbar__link"><a href="">Chat</a></li>
+                    <li class="navbar__link"><a href="">Preguntas</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- List of Contacts -->
+        <div class="contacts">
+            <!-- Header -->
+            <header class="header">
+                <h1 class="header__title">Un chat más</h1>
+                <div class="header__buttons">
+                    <button class="buttons__item"><i class="fa-solid fa-user-plus"></i></button>
+                    <button class="buttons__item"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </header>
+    
+            <!-- Main -->
+            <div class="container">
+                <!-- Rigby -->
+                <section class="container-item" id="firstChat">
+                    <div class="container-item__image">
+                        <img class="profile-picture" src="assets/media/icon/rigby.png" alt="Rigby">
+                    </div>
+                    <div class="container-item__body">
+                        <h3 class="container-item__title">Rigby</h3>
+                        <h6></h6>
+                        <p class="container-item__paragraph" id="new-mssg">Fugit voluptatibus doloremque veritatis earum.
+                            Ad.</p>
+                    </div>
+                </section>
+                <!-- Mordecai -->
+                <section class="container-item">
+                    <div class="container-item__image">
+                        <img class="profile-picture" src="assets/media/icon/mordecai.png" alt="Mordecai">
+                    </div>
+                    <div class="container-item__body">
+                        <div class="container-item__header">
+                            <h3 class="container-item__title">Mordecai</h3>
+                            <h6>16:38</h6>
+                        </div>
+                        <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Magni placeat accusantium
+                            corporis?</p>
+                    </div>
+                </section>
+                <!-- Papaleta -->
+                <section class="container-item">
+                    <div class="container-item__image">
+                        <img class="profile-picture" src="assets/media/icon/papaleta.png" alt="Papaleta">
+                    </div>
+                    <div class="container-item__body">
+                        <div class="container-item__header">
+                            <h3 class="container-item__title">Papaleta</h3>
+                            <h6>14:16</h6>
+                        </div>
+                        <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Quasi ullam vitae.</p>
+                    </div>
+                </section>
+                <!-- Benson -->
+                <section class="container-item">
+                    <div class="container-item__image">
+                        <img class="profile-picture" src="assets/media/icon/benson.png" alt="Benson">
+                    </div>
+                    <div class="container-item__body">
+                        <div class="container-item__header">
+                            <h3 class="container-item__title">Benson</h3>
+                            <h6>05:45</h6>
+                        </div>
+                        <p class="container-item__paragraph">Hic assumenda veritatis asperiores similique ut 😡!!</p>
+                    </div>
+                </section>
+                <!-- Skips -->
+                <section class="container-item">
+                    <div class="container-item__image">
+                        <img class="profile-picture" src="assets/media/icon/skips.png" alt="Skips">
+                    </div>
+                    <div class="container-item__body">
+                        <div class="container-item__header">
+                            <h3 class="container-item__title">Skips</h3>
+                            <h6>Ayer</h6>
+                        </div>
+                        <p class="container-item__paragraph">Earum provident iste nemo.</p>
+                    </div>
+                </section>
+                <!-- Musculoso -->
+                <section class="container-item">
+                    <div class="container-item__image">
+                        <img class="profile-picture" src="assets/media/icon/musculoso.png" alt="Musculoso">
+                    </div>
+                    <div class="container-item__body">
+                        <div class="container-item__header">
+                            <h3 class="container-item__title">Musculoso</h3>
+                            <h6>Viernes</h6>
+                        </div>
+                        <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Rem molestiae!</p>
+                    </div>
+                </section>
+                <section class="container-item">
+                    <div class="container-item__image">
+                        <img class="profile-picture" src="assets/media/icon/fantasmano.png" alt="Fantasmano">
+                    </div>
+                    <div class="container-item__body">
+                        <div class="container-item__header">
+                            <h3 class="container-item__title">Fantasmano</h3>
+                            <h6>Viernes</h6>
+                        </div>
+                        <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Rem molestiae!</p>
+                    </div>
+                </section>
+            </div>
         </div>
-    </header>
-    <hr>
-    <!-- Main -->
-    <div class="container">
-        <!-- Rigby -->
-        <section class="container-item">
-            <div class="container-item__image">
-                <img class="profile-picture" src="assets/media/icon/rigby.png" alt="Rigby">
+    
+    
+        <!-- Chat -->
+        <div class="chat">
+            <!-- Header -->
+            <header class="chat__header">
+                <div class="chat__image">
+                    <img class="profile-picture" src="assets/media/icon/rigby.png" alt="Skips">
+                </div>
+                <div class="chat__info">
+                    <h3 class="chat__name">Rigby</h3>
+                    <p class="chat__login">últ. vez hoy a las 18:59</p>
+                </div>
+            </header>
+    
+            <!-- Bubbles -->
+            <div class="chat__body">
+                <p class="chat__item item-one item-left">Nam deserunt facere atque sed, omnis, quibusdam officia fuga
+                    expedita harum ullam
+                    repellat architecto ab magnam earum laborum, exercitationem aliquid tempore minus.</p>
+                <p class="chat__item item-two item-right">Quae?</p>
+                <p class="chat__item item-three item-left">Nulla voluptatem ad earum enim odio!</p>
+                <p class="chat__item item-four item-right">Suscipit ut error alias tempora itaque dicta mollitia dolor.</p>
+                <p class="chat__item item-five item-left">Molestiae quae minima quis et ipsa impedit amet provident nemo?
+                </p>
+                <p class="chat__item item-six item-right">Nihil sequi placeat suscipit optio soluta voluptatum non.</p>
+                <p class="chat__item item-seven item-left">Porro nobis illo unde eum assumenda laborum reprehenderit quos
+                    quibusdam.</p>
+                <p class="chat__item item-eight item-right">Quas iusto mollitia id?</p>
             </div>
-            <div class="container-item__body">
-                <h3 class="container-item__title">Rigby</h3>
-                <p class="container-item__paragraph">Fugit voluptatibus doloremque veritatis earum. Ad.</p>
-            </div>
-        </section>
-        <!-- Mordecai -->
-        <section class="container-item">
-            <div class="container-item__image">
-                <img class="profile-picture" src="assets/media/icon/mordecai.png" alt="Mordecai">
-            </div>
-            <div class="container-item__body">
-                <h3 class="container-item__title">Mordecai</h3>
-                <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Magni placeat accusantium corporis?</p>
-            </div>
-        </section>
-         <!-- Papaleta -->
-         <section class="container-item">
-            <div class="container-item__image">
-                <img class="profile-picture" src="assets/media/icon/papaleta.png" alt="Papaleta">
-            </div>
-            <div class="container-item__body">
-                <h3 class="container-item__title">Papaleta</h3>
-                <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Quasi ullam vitae.</p>
-            </div>
-        </section>
-        <!-- Benson -->
-        <section class="container-item">
-            <div class="container-item__image">
-                <img class="profile-picture" src="assets/media/icon/benson.png" alt="Benson">
-            </div>
-            <div class="container-item__body">
-                <h3 class="container-item__title">Benson</h3>
-                <p class="container-item__paragraph">Hic assumenda veritatis asperiores similique ut 😡!!</p>
-            </div>
-        </section>
-        <!-- Skips -->
-        <section class="container-item">
-            <div class="container-item__image">
-                <img class="profile-picture" src="assets/media/icon/skips.png" alt="Skips">
-            </div>
-            <div class="container-item__body">
-                <h3 class="container-item__title">Skips</h3>
-                <p class="container-item__paragraph">Earum provident iste nemo.</p>
-            </div>
-        </section>
-        <!-- Musculoso -->
-        <section class="container-item">
-            <div class="container-item__image">
-                <img class="profile-picture" src="assets/media/icon/musculoso.png" alt="Musculoso">
-            </div>
-            <div class="container-item__body">
-                <h3 class="container-item__title">Musculoso</h3>
-                <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Rem molestiae!</p>
-            </div>
-        </section>
-        <section class="container-item">
-            <div class="container-item__image">
-                <img class="profile-picture" src="assets/media/icon/fantasmano.png" alt="Fantasmano">
-            </div>
-            <div class="container-item__body">
-                <h3 class="container-item__title">Fantasmano</h3>
-                <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Rem molestiae!</p>
-            </div>
-        </section>
-    </div>
-    </div>
-
-
-    <!-- Chat -->
-    <div class="chat">
-        <!-- Header -->
-        <header class="chat__header">
-            <div class="chat__image">
-                <img class="profile-picture" src="assets/media/icon/rigby.png" alt="Skips">
-            </div>
-            <div class="chat__info">
-                <h3 class="chat__name">Rigby</h3>
-                <p class="chat__login">Last time seen today 18:59</p>
-            </div>
-        </header>
-
-        <!-- Bubbles -->
-        <div class="chat__body">
-            <p class="chat__item item-one item-left">Nam deserunt facere atque sed, omnis, quibusdam officia fuga expedita harum ullam
-                repellat architecto ab magnam earum laborum, exercitationem aliquid tempore minus.</p>
-            <p class="chat__item item-two item-right">Quae?</p>
-            <p class="chat__item item-three item-left">Nulla voluptatem ad earum enim odio!</p>
-            <p class="chat__item item-four item-right">Suscipit ut error alias tempora itaque dicta mollitia dolor.</p>
-            <p class="chat__item item-five item-left">Molestiae quae minima quis et ipsa impedit amet provident nemo?</p>
-            <p class="chat__item item-six item-right">Nihil sequi placeat suscipit optio soluta voluptatum non.</p>
-            <p class="chat__item item-seven item-left">Porro nobis illo unde eum assumenda laborum reprehenderit quos quibusdam.</p>
-            <p class="chat__item item-eight item-right">Quas iusto mollitia id?</p>
+    
+            <!-- Footer -->
+            <footer class="chat__footer">
+                <button class="chat__button"><i class="fa-solid fa-paperclip"></i></button>
+                <input class="chat__input" type="text">
+                <button class="chat__button"><i class="fa-regular fa-face-smile"></i></button>
+                <button class="chat__button"><i class="fa-regular fa-paper-plane"></i></button>
+            </footer>
         </div>
-
-        <!-- Footer -->
-        <footer class="chat__footer">
-            <button class="chat__button"><i class="fa-solid fa-paperclip"></i></button>
-            <input class="chat__input" type="text">
-            <button class="chat__button"><i class="fa-regular fa-face-smile"></i></button>
-            <button class="chat__button"><i class="fa-regular fa-paper-plane"></i></button>
-        </footer>
     </div>
 
 
     <!-- JavaScript -->
     <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>
