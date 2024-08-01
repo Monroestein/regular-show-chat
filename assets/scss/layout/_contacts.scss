@@ -3,7 +3,7 @@
     flex-basis: 45vw;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
 }
 
 .header{
@@ -23,9 +23,15 @@
     display: flex;
 }
 
+#search-input{
+    border: none;
+    display: none;
+}
+
 .container{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .container-item{

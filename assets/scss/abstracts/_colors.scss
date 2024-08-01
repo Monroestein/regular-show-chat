@@ -1,60 +1,126 @@
-:root{
-    --white:#FEFEF8;
-    --alabaster:#F2EFE7;
-    --ash-grey:#A6AFAD;
-    --slate-grey:#7D8B94;
-    --dim-grey:#696F6A;
-    --tea-green:#c7da91;
-    --olivine:#ecf1dc;
-    --reseda-green:#617546;
-    --reseda-green-two:#6D8872;
-    --saturated-yellow:#424129;
-    --night:#121311;
+:root {
+    --white: #FEFEF8;
+    --alabaster: #F2EFE7;
+    --ash-grey: #A6AFAD;
+    --slate-grey: #7D8B94;
+    --dim-grey: #696F6A;
+    --tea-green: #c7da91;
+    --olivine: #ecf1dc;
+    --reseda-green: #617546;
+    --reseda-green-two: #6D8872;
+    --saturated-yellow: #424129;
+    --night: #121311;
+    --paperclip: #5aa7d4;
+    --emoji: #e7ad0e;
+    --paperplane: #f391bf;
 }
 
-body{
+body {
     color: var(--night);
 }
 
-.contacts{
+.navbar {
+    background-color: var(--alabaster);
+}
+
+.navbar-brand {
+    background: -webkit-linear-gradient(var(--saturated-yellow), var(--reseda-green));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contacts {
     background-color: var(--white);
 }
 
 //                     Header
 
-.header{
+.header {
     background-color: var(--reseda-green-two);
     color: var(--alabaster);
 }
 
-.buttons__item{
+.buttons__item {
     color: var(--ash-grey);
     background-color: var(--reseda-green-two);
+    transition: color 1s;
 }
 
-.container-item__paragraph i{
+.buttons__item:hover {
+    color: var(--alabaster);
+}
+
+//                     List of contacts
+
+.container-item{
+    background-color: var(--white);
+    transition: all 1s;
+}
+
+.container-item:hover{
+    background-color: var(--olivine);
+    cursor: pointer;
+}
+
+.container-item__paragraph i {
     color: var(--tea-green);
 }
 
-//                     Main
 
 
 
 //                     Chat
-.chat__header{
+.chat__header {
     background-color: var(--reseda-green-two);
     color: var(--alabaster);
 }
 
-.item-left{
+.item-left {
     background-color: var(--tea-green);
 }
 
-.item-right{
+.item-right {
     background-color: var(--olivine);
 }
 
-.chat__footer{
+.chat__footer {
     background-color: var(--ash-grey);
 }
 
+.chat__button {
+    background-color: var(--alabaster);
+    box-shadow: 2px 2px 5px var(--dim-grey);
+    transition: background-color 1.5s;
+}
+
+.chat__button:hover {
+    background-color: var(--white);
+}
+
+.paperclip {
+    color: var(--dim-grey);
+    transition: color 1s;
+}
+
+.paperclip:hover {
+    color: var(--paperclip);
+}
+
+.emoji {
+    color: var(--dim-grey);
+    transition: color 1s;
+}
+
+.emoji:hover {
+    color: var(--emoji);
+}
+
+.paperplane {
+    color: var(--dim-grey);
+    transition: color 1s;
+}
+
+.paperplane:hover {
+    color: var(--paperplane);
+}

@@ -4,6 +4,8 @@
 //     document.querySelector('.chat').style.display='block'
 // })
 
+
+
 // Grab element
 const newMessageBlock = document.getElementById('firstChat');
 const newMessage = document.getElementById('new-mssg');
@@ -13,3 +15,18 @@ function changeFontWeight(){
 }
 // When will happen
 newMessageBlock.addEventListener('click', changeFontWeight);
+
+
+
+
+// Search input to appear when button is pressed
+const searchButtonPressed = document.getElementById('search-button');
+
+function searchBarPopsUp(){
+    const searchButton = document.getElementById('search-input');
+    searchButton.style.display='inline-block';
+};
+
+searchButtonPressed.addEventListener('click', searchBarPopsUp);
+
+

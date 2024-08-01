@@ -1,0 +1,22 @@
+:root{
+    --white:#FEFEF8;
+    --alabaster:#F2EFE7;
+    --ash-grey:#A6AFAD;
+    --slate-grey:#7D8B94;
+    --dim-grey:#696F6A;
+    --tea-green:#c7da91;
+    --olivine:#ecf1dc;
+    --reseda-green:#617546;
+    --reseda-green-two:#6D8872;
+    --saturated-yellow:#424129;
+    --night:#121311;
+}
+
+.buttons__items{
+    color: var(--ash-grey);
+    transition: color 5s 2s;
+}
+
+.buttons__item:hover {
+    color: var(--tea-green);
+}
