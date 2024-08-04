@@ -32,6 +32,9 @@
                 <a class="nav-link" href="#">Calendario</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link disabled" href="#">Un chat más</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#">Preguntas</a>
               </li>
             </ul>
@@ -41,7 +44,7 @@
 
     <div class="parent_container">
     
-        <!-- List of Contacts -->
+        <!-- Contacts -->
         <div class="contacts">
             <!-- Header -->
             <header class="header">
@@ -55,6 +58,7 @@
     
             <!-- Main -->
             <div class="container">
+
                 <!-- Rigby -->
                 <section class="container-item" id="firstChat">
                     <div class="container-item__image">
@@ -63,10 +67,10 @@
                     <div class="container-item__body">
                         <h3 class="container-item__title">Rigby</h3>
                         <h6></h6>
-                        <p class="container-item__paragraph" id="new-mssg">Fugit voluptatibus doloremque veritatis earum.
-                            Ad.</p>
+                        <p class="container-item__paragraph" id="new-mssg">Fugit voluptatibus doloremque veritatis earum</p>
                     </div>
                 </section>
+
                 <!-- Mordecai -->
                 <section class="container-item">
                     <div class="container-item__image">
@@ -81,6 +85,7 @@
                             corporis?</p>
                     </div>
                 </section>
+
                 <!-- Papaleta -->
                 <section class="container-item">
                     <div class="container-item__image">
@@ -94,6 +99,7 @@
                         <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Quasi ullam vitae.</p>
                     </div>
                 </section>
+
                 <!-- Benson -->
                 <section class="container-item">
                     <div class="container-item__image">
@@ -107,6 +113,7 @@
                         <p class="container-item__paragraph">Hic assumenda veritatis asperiores similique ut 😡!!</p>
                     </div>
                 </section>
+
                 <!-- Skips -->
                 <section class="container-item">
                     <div class="container-item__image">
@@ -120,6 +127,7 @@
                         <p class="container-item__paragraph">Earum provident iste nemo.</p>
                     </div>
                 </section>
+
                 <!-- Musculoso -->
                 <section class="container-item">
                     <div class="container-item__image">
@@ -133,6 +141,8 @@
                         <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Rem molestiae!</p>
                     </div>
                 </section>
+
+                <!-- Fantasmano -->
                 <section class="container-item">
                     <div class="container-item__image">
                         <img class="profile-picture" src="assets/media/icon/fantasmano.png" alt="Fantasmano">
@@ -145,6 +155,34 @@
                         <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Rem molestiae!</p>
                     </div>
                 </section>
+    
+                <!-- Muerte -->
+                <section class="container-item">
+                    <div class="container-item__image">
+                        <img class="profile-picture" src="assets/media/icon/muerte.png" alt="Muerte">
+                    </div>
+                    <div class="container-item__body">
+                        <div class="container-item__header">
+                            <h3 class="container-item__title">Muerte</h3>
+                            <h6>12/07/2024</h6>
+                        </div>
+                        <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Provident ipsam quasi animi.</p>
+                    </div>
+                </section>
+
+                <!-- Sensei -->
+                <section class="container-item">
+                    <div class="container-item__image">
+                        <img class="profile-picture" src="assets/media/icon/sensei.png" alt="Sensei">
+                    </div>
+                    <div class="container-item__body">
+                        <div class="container-item__header">
+                            <h3 class="container-item__title">Sensei</h3>
+                            <h6>09/05/2024</h6>
+                        </div>
+                        <p class="container-item__paragraph"><i class="fa-solid fa-check"></i> Harum quidem aliquid excepturi sint sed?</p>
+                    </div>
+                </section>
             </div>
         </div>
     
@@ -153,8 +191,8 @@
         <div class="chat">
             <!-- Header -->
             <header class="chat__header">
-                <div class="chat__image">
-                    <img class="profile-picture" src="assets/media/icon/rigby.png" alt="Skips">
+                <div class="chat__image" id="rigby-profile-picture">
+                    <img class="profile-picture" src="assets/media/icon/rigby.png" alt="Rigby">
                 </div>
                 <div class="chat__info">
                     <h3 class="chat__name">Rigby</h3>
@@ -164,18 +202,19 @@
     
             <!-- Bubbles -->
             <div class="chat__body">
-                <p class="chat__item item-one item-left">Nam deserunt facere atque sed, omnis, quibusdam officia fuga
+                <p class="chat__item item-left">Nam deserunt facere atque sed, omnis, quibusdam officia fuga
                     expedita harum ullam
                     repellat architecto ab magnam earum laborum, exercitationem aliquid tempore minus.</p>
-                <p class="chat__item item-two item-right">Quae?</p>
-                <p class="chat__item item-three item-left">Nulla voluptatem ad earum enim odio!</p>
-                <p class="chat__item item-four item-right">Suscipit ut error alias tempora itaque dicta mollitia dolor.</p>
-                <p class="chat__item item-five item-left">Molestiae quae minima quis et ipsa impedit amet provident nemo?
+                <p class="chat__item item-right">Quae?</p>
+                <p class="chat__item item-left">Nulla voluptatem ad earum enim odio!</p>
+                <p class="chat__item item-right">Suscipit ut error alias tempora itaque dicta mollitia dolor</p>
+                <p class="chat__item item-left">Molestiae quae minima quis et ipsa impedit amet provident nemo?
                 </p>
-                <p class="chat__item item-six item-right">Nihil sequi placeat suscipit optio soluta voluptatum non.</p>
-                <p class="chat__item item-seven item-left">Porro nobis illo unde eum assumenda laborum reprehenderit quos
-                    quibusdam.</p>
-                <p class="chat__item item-eight item-right">Quas iusto mollitia id?</p>
+                <p class="chat__item item-right"><img src="assets/media/gif.gif" alt="" height="100px"></p>
+                <p class="chat__item item-left">Laborum reprehenderit quos
+                    quibusdam</p>
+                <p class="chat__item item-right">Quas iusto mollitia id?</p>
+                <p class="chat__item item-left">Fugit voluptatibus doloremque veritatis earum</p>
             </div>
     
             <!-- Footer -->
