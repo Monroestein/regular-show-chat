@@ -128,3 +128,17 @@ body {
 .paperplane:hover {
     color: var(--paperplane);
 }
+
+.footer__list{
+    background-color: var(--white);
+}
+
+.footer__item{
+    color: var(--reseda-green);
+    transition: color .5s;
+}
+
+.footer__item:hover{
+    background-color: var(--olivine);
+    color: var(--saturated-yellow);
+}

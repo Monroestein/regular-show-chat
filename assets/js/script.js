@@ -31,4 +31,13 @@ searchButtonPressed.addEventListener('click', searchBarPopsUp);
 
 
 
-//
+//Popup menu
+const attachFiles = document.getElementById('attachButton');
+
+function menuPopsUp(){
+    const menu = document.getElementById('popupMenu');
+    menu.style.display='inline-block';
+};
+
+attachFiles.addEventListener('click', menuPopsUp);
+

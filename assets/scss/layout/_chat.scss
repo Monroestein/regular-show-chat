@@ -63,6 +63,32 @@
     height: 3vh;
 }
 
+#popupMenu{
+    display: none;
+}
+
+.footer__popup{
+    position: absolute;
+    left: 0;
+    bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__list{
+    list-style: none;
+}
+
+.footer__item{
+    padding: .5vh 2vw;
+}
+
+.footer__item:hover{
+    cursor: pointer;
+}
+
+
 
 // queries
 
